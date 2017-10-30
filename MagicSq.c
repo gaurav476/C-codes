@@ -21,6 +21,7 @@ int main()
 
 	int **MS = NULL;
 
+	//create 2D Array dynamically
 	MS = createMS(size);
 	
 	int i, j;
@@ -29,6 +30,7 @@ int main()
 		for(j = 0 ; j < size ; j++)
 			MS[i][j] = 0;
 
+	//Populating the Array
 	MS = genMS(MS, size);
 	
 	printf("\nThe generated Magic square is : ");
@@ -39,6 +41,7 @@ int main()
 			printf("%d\t", MS[i][j]);
 	}
 
+	//Checking the validity
 	int res = isValidMS(MS, size);
 
 	if(res == 0)
