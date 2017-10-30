@@ -1,0 +1,1 @@
+int ** genMS(int **, int);
