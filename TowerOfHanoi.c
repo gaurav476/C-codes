@@ -1,3 +1,4 @@
+//Iterative tower of hanoi
 #include<stdio.h>
 
 void print(int [], int [], int [], int, int, int);
