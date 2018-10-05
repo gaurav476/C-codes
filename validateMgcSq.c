@@ -1,3 +1,4 @@
+//Magic Square
 #include "ValidateMgcSq.h"
 
 int isValidMS(int **sq, int s)
